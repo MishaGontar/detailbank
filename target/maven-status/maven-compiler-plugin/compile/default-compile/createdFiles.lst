@@ -1,0 +1,5 @@
+guryme\detailbank\DetailbankApplication.class
+guryme\detailbank\controller\DetailsController.class
+guryme\detailbank\model\DetailModel.class
+guryme\detailbank\client\SeleniumClient.class
+guryme\detailbank\service\DetailService.class
