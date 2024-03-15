@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  detailbank:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - firefox
+
+  firefox:
+    image: "selenium/standalone-firefox-debug"
+    ports:
+      - "4444:4444"
+    environment:
+      - no_proxy=localhost
